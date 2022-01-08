@@ -1,0 +1,126 @@
+body{
+    font-family: 'Lora', sans-serif;
+}
+section {
+    background-color: rgb(255, 254, 254);
+    border: solid black 1px;
+}
+.hero {
+    background-color: rgb(54, 78, 54);
+    height: 100vh;
+    color: floralwhite;
+    font-size: 30px;
+}
+footer {
+    height: 500px;
+    background-color: darkslategrey;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+li{
+    text-decoration: none;
+} 
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 45px;
+}
+p{
+    font-weight: 300;
+    font-size: 30px;
+}
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+.hero-area{
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    margin-left: 40px;
+    margin: 48px;
+    line-height: 50px;
+    margin-bottom: 100px;
+}
+.button{
+    border-radius: 30px;
+    background-color: rgb(112, 165, 149);
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 27px;
+    padding: 5px;
+    width: 155px;
+    height: 50px;
+}
+.button:hover {
+    background-color: rgb(88, 160, 156);
+}
+.button:active {
+    background-color: rgb(110, 110, 133);
+    color: rgb(12, 11, 11);
+}
+.socials {
+    padding-bottom: 58px;
+}
+.logo {
+    height: 70px;
+    margin: 20px;
+}
+.social {
+    margin: 25px;
+}
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px
+}
+.sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+.headshot {
+    display: flex;
+    height: 341px;
+    border-radius: 11px;
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+.project-card {
+    width: 240px;
+    height: 435px;
+    box-shadow: 3px 3px 10px rgb(53, 49, 49);
+    margin: 10px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+.project-image {
+    margin-top: 25px;
+    width: 155px;
+    border-radius: 100px;
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
