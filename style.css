@@ -3,23 +3,23 @@ body{
 }
 section {
     background-color: rgb(255, 254, 254);
-    border: solid black 1px;
+    
 }
 .hero {
-    background-color: rgb(54, 78, 54);
+    background-color: darkslategrey;
     height: 100vh;
     color: floralwhite;
     font-size: 30px;
 }
 footer {
-    height: 500px;
     background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 nav {
     display: flex;
     justify-content: space-between;
-
-
 }
 ul {
     display: flex;
@@ -88,7 +88,8 @@ p{
 .sub-section {
     display: flex;
     justify-content: space-around;
-    padding: 50px
+    padding: 50px;
+    text-align: center;
 }
 .sub-section-alt {
     display: flex;
@@ -100,6 +101,7 @@ p{
     display: flex;
     height: 341px;
     border-radius: 11px;
+    box-shadow: 5px 5px 10px;
 }
 .headshot-container {
     display: flex;
@@ -110,6 +112,7 @@ p{
     height: 435px;
     box-shadow: 3px 3px 10px rgb(53, 49, 49);
     margin: 10px;
+    
 }
 .project-container{
     display: flex;
@@ -123,4 +126,8 @@ p{
 hr {
     margin-left: 20px;
     margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
