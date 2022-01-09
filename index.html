@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/764d8fef4e.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 
@@ -14,11 +15,14 @@
     <section class="hero">
         <nav>
             <img class="logo" src="images/klogo.png" alt="logo image"/>
-            <ul>
+            <ul id="nav-list">
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
@@ -54,30 +58,30 @@
             <div class="project-card">
                 <img class="project-image" src="images/moon.png" alt="Project one image"/>
                 <h3>Project One</h3>
-                <p class="subtext">This is my first proffesional shoot. This project was collaborated with Rheinhardhlvisuals</p>
+                <p class="subtext">This is my first proffesional shoot. This project was shot by Rheinhardhlvisuals</p>
                 <hr/>
-                <p class="subtext">View Here</p>
+                <p class="subtext-view">View Here</p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="images/palihotel.png" alt="Project two image"/>
                 <h3>Project Two</h3>
-                <p class="subtext">The Palihotel project was collaborated with multiple artists and creatives.</p>
+                <p class="subtext">The Palihotel project was collaborated with multiple artists and creatives</p>
                 <hr/>
-                <p class="subtext">View Here</p>
+                <p class="subtext-view">View Here</p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="images/release-party.png" alt="Project three image"/>
                 <h3>Project Three</h3>
                 <p class="subtext">This project involved my own photography featuring Jason.U</p>
                 <hr/>
-                <p class="subtext">View Here</p>
+                <p class="subtext-view">View Here</p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="images/dj.png" alt="Project four image"/>
                 <h3>Project Four</h3>
-                <p class="subtext">This project features artists Dj Marvelous and Yohinessj</p>
+                <p class="subtext">This project features artists Dj Marvelous and Yohinessj at the Mint club</p>
                 <hr/>
-                <p class="subtext">View Here</p>
+                <p class="subtext-view">View Here</p>
             </div>
         </div>
     </section>
@@ -86,7 +90,7 @@
         <p>Kateryna.koltunova@gmail.com</p>
     </footer>
        
-
+    <script src="script.js"></script>
 
 </body>
 </html>
