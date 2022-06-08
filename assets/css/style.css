@@ -131,7 +131,7 @@ p{
 .project-image {
     margin-top: 25px;
     width: 155px;
-    border-radius: 100px;
+    height: 155px;
 }
 hr {
     margin-left: 20px;
@@ -151,11 +151,27 @@ a {
     outline: 0;
 }
 
-.card-text {
-    font-size: 20px;
+.card-text a{
+    font-size: 15px;
     font-weight: 300;
     margin-top: -10px;
+    color: rgb(10, 11, 11);
+}
+
+.card-text a:hover {
     color: blue;
+
+}
+
+#contact a{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -10px;
+    color: rgb(236, 248, 248);
+}
+#contact a:hover {
+    color: blue;
+
 }
 
 @media screen and (max-width: 992px) {
